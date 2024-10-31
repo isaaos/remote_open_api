@@ -2,8 +2,8 @@
 
 ### 拉取项目构建并运行
 ```shell
-git clone https://git.conohaa.com/okyang/remote_api.git
-cd remote_api
+git clone https://github.com/isaaos/remote_open_api.git
+cd remote_open_api
 # 创建虚拟环境
 python3 -m venv venv
 # 激活虚拟环境
@@ -40,7 +40,7 @@ pip freeze > requirements.txt
 
 ### Supervisor 守护
 ````shell
-/opt/remote_api
-/opt/remote_api/venv/bin/python3 strat.py
+/opt/remote_open_api
+/opt/remote_open_api/venv/bin/python3 strat.py
 ````
 
